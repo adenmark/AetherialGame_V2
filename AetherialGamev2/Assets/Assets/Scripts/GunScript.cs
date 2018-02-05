@@ -6,6 +6,11 @@ public class GunScript : MonoBehaviour
 {
     public GameObject PlayerBullet;
     public GameObject bulletPosition;
+
+    public float fireRate;
+
+    private float nextFire;
+
     // Use this for initialization
     void Start()
     {
@@ -15,9 +20,9 @@ public class GunScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Time.time > nextFire)
         {
-
+            nextFire = Time.time + fireRate;//firerate of the bullet
             GameObject bullet = (GameObject)Instantiate(PlayerBullet);
             bullet.transform.position = bulletPosition.transform.position;
 
@@ -32,5 +37,8 @@ public class GunScript : MonoBehaviour
         mousePosition.y - transform.position.y);
 
         transform.right = direction;
+        
+        
+
     }
 }

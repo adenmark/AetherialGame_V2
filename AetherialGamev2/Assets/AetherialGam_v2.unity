@@ -282,6 +282,7 @@ MonoBehaviour:
   PlayerBullet: {fileID: 1519540075702588, guid: cd2a8d1324a7c1c4a9935714d5eaffc2,
     type: 2}
   bulletPosition: {fileID: 799635101}
+  fireRate: 0
 --- !u!212 &278152844
 SpriteRenderer:
   m_ObjectHideFlags: 0
