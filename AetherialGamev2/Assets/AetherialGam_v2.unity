@@ -327,6 +327,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
 --- !u!1 &358312195
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358312196}
   m_Layer: 0
-  m_Name: fistpo
+  m_Name: ijasij'saiod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,8 +355,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> eac3739f46397ff836d387af2bafbb80922dbe4d
 --- !u!1 &749145051
 GameObject:
   m_ObjectHideFlags: 0
